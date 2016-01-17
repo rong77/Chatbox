@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Chatbox</title>
+        <link rel="stylesheet" href="http://localhost:4321/style.css">
+    </head>
+    <body>
+        <div class="socketchatbox-page">
+
+            <div id='socketchatbox-top'>
+                <div id='socketchatbox-username'></div>
+                <div id='socketchatbox-showHideChatbox'>↓</div>
+            </div>
+            <div id='socketchatbox-body'>
+                <div class="socketchatbox-chatArea">
+                    <ul class="socketchatbox-messages"></ul>
+                </div>
+
+                <form id="socketchatbox-sendMedia">
+                    <div>
+                        <label class="socketchatbox-filebutton">
+                            Drop file above to send
+                            <input type="file" id="socketchatbox-imagefile" accept="image/*">
+                        </label>
+                    </div>
+                </form>       
+
+                <input class="socketchatbox-inputMessage" placeholder="Type here..."/>
+            </div>
+      
+        </div>
+
+
+    </body>
+
+    <script src="http://localhost:4321/jquery-1.9.0.min.js"></script>
+    <script src="http://localhost:4321/socket.io/socket.io.js"></script>
+    <script src="http://localhost:4321/client.js"></script>
+</html>
