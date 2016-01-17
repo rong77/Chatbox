@@ -14,7 +14,7 @@ $ node index.js
 
 And point your browser to `http://localhost:4321`.
 
-To embed this chatbox into a web page, just copy paste the content in public/index.html to the page you want to have chatbox, then change all `http://localhost` to your domain name (don't forget the one in client.js). This app works great with light box library, I personally recommend using fancybox. 
+To embed this chatbox into a web page, just copy paste the content in public/index.html to the page you want to have chatbox, then change all `http://localhost` to your domain name (don't forget the one in client.js). 
 
 ## Other features
 
@@ -22,6 +22,7 @@ To embed this chatbox into a web page, just copy paste the content in public/ind
 * Show recent chat history.
 * Sound notification when new user join or receive new message.
 * Support unstable Internet connection.
+* If you want to magnify images, just include fancybox library.
 * Admin can run JavaScript on users' browser (use with cautious).
 
 ## Future plan
