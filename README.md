@@ -35,4 +35,9 @@ To embed this chatbox into a web page, just copy paste the content in public/ind
 
 You can see how it looks at my own blog here: [http://lifeislikeaboat.com](http://lifeislikeaboat.com). The chatbox is minimized at left bottom by default.
 
+## Screenshot
+
+![screenshot](/Screenshot.png?raw=true "Screenshot")
+
+
 
